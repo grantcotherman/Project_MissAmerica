@@ -38,7 +38,15 @@ Afterwards, I was ready to create a dataframe using the cleaned lists and export
 
 ## Combining Tables Using SQL
 
+After importing the census csv file and the cleaned Miss America Data in SQL Server Management Studio, I joined the file on the shared value (state) so that I could have the associated population for each state. The code for doing this and querying the data is seen below:
 
+![SQL_Code_Image](https://user-images.githubusercontent.com/94634170/219902667-7f781731-1d77-4f6e-9c1c-817a6c35fd53.png)
+
+The query output:
+
+![SQL_Output_Image](https://user-images.githubusercontent.com/94634170/219902685-cca900b5-4754-45d0-b7f3-0d1ac4523830.png)
+
+This output gave me a good idea for the data and how I could visualize it using Tableau.
 
 
 ## Visualization With Tableau
