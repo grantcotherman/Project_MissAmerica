@@ -5,6 +5,7 @@
 The goal of this project was to brush up on skills learned in my MS. MIS program while simultaneously displaying my home-state's statistical dominance in the Miss America Pageants. I scraped historical Miss America data from wikipedia, took census data from census.gov to get state populations (2019), used SQL to combine the data, and finally used Tableau to visualize the results. 
 
 
+
 ## Scraping With Python
 
 To start, I used python's pandas, lxml and requests modules to scrape and clean the data. To retrieve the data, I wrote the following code:
@@ -36,6 +37,7 @@ Afterwards, I was ready to create a dataframe using the cleaned lists and export
 ![CreatingDF Exporting_MissAmerica](https://user-images.githubusercontent.com/94634170/219901759-5b651397-f5c6-495d-a438-7aa29116b292.png)
 
 
+
 ## Combining Tables Using SQL
 
 After importing the census csv file and the cleaned Miss America data in SQL Server Management Studio, I joined the file on the shared value (state) so that I could have the associated population for each state. The code for doing this and querying the data is seen below:
@@ -47,6 +49,7 @@ The query output:
 ![SQL_Output_Image](https://user-images.githubusercontent.com/94634170/219902685-cca900b5-4754-45d0-b7f3-0d1ac4523830.png)
 
 This output gave me a good idea for the data and how I could visualize it using Tableau.
+
 
 
 ## Visualization With Tableau
