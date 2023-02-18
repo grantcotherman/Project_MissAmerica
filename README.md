@@ -7,23 +7,23 @@ The goal of this project was to brush up on skills learned in my MS. MIS program
 
 ## Scraping With Python
 
-To start, I used python's pandas, lxml and requests modules to scrape and clean the data. To retrive the data, I wrote the following code:
+To start, I used python's pandas, lxml and requests modules to scrape and clean the data. To retrieve the data, I wrote the following code:
 
 ![ScrapingCode_MissAmerica](https://user-images.githubusercontent.com/94634170/219900938-375f6912-b27b-44d0-9cbc-b9a6df59024f.png)
 
-This Resulted in fairly clean output, as seen below:
+This resulted in fairly clean output, as seen below:
 
 ![ScrapingOutput_MissAmerica](https://user-images.githubusercontent.com/94634170/219900957-4aaf7c85-2aa1-4269-9d1b-0f38e62b069f.png)
 
-Unfortunately, there were a few things to correct.  First off, I cleaned the /n from the age column and replaced the city names with the state, which was a problem when representatives from a single state won in succession, as shown below:
+However, there were a few things to correct. Namely, the mismatched list lengths, town names in the state list and missing values and /n in the age list. First off, I cleaned the /n from the age column, filled empty age strings and replaced the city names with the state, which was a problem when representatives from a single state won in succession, as shown below:
 
 ![MultipleLines_OneState_Issue](https://user-images.githubusercontent.com/94634170/219901247-21c2d90f-d5f5-4348-ac26-eb1d80228dab.png)
 
-The code used to fix the age and state columns are below:
+The code used to fix the age and state columns is below:
 
 ![CleaningCode_Age State_MissAmerica](https://user-images.githubusercontent.com/94634170/219901250-4aa066a2-363f-4c8f-bd26-295a63a02f9e.png)
 
-Due to a scandal taking place in 1984 with the reiging Miss America, the runner up was awarded the title late in the year. To fix this, I had to add 1984 once more using its index in the list. See below: 
+Due to a scandal taking place in 1984 with the reiging Miss America, the runner up was awarded the title late in the year. To fix this, I had to add 1984 once more using its index in the list, which fixed the mismatched list lengths. See below: 
 
 ![CleaningCode_Year_MissAmerica](https://user-images.githubusercontent.com/94634170/219901686-1e5b7a0a-9d18-4bc8-a31d-6e96f6caa408.png)
 
@@ -38,7 +38,7 @@ Afterwards, I was ready to create a dataframe using the cleaned lists and export
 
 ## Combining Tables Using SQL
 
-After importing the census csv file and the cleaned Miss America Data in SQL Server Management Studio, I joined the file on the shared value (state) so that I could have the associated population for each state. The code for doing this and querying the data is seen below:
+After importing the census csv file and the cleaned Miss America data in SQL Server Management Studio, I joined the file on the shared value (state) so that I could have the associated population for each state. The code for doing this and querying the data is seen below:
 
 ![SQL_Code_Image](https://user-images.githubusercontent.com/94634170/219902667-7f781731-1d77-4f6e-9c1c-817a6c35fd53.png)
 
@@ -51,7 +51,7 @@ This output gave me a good idea for the data and how I could visualize it using 
 
 ## Visualization With Tableau
 
-For creating a Tableau dashboard, I decided to go with three graphs 
+For creating a Tableau dashboard, I decided to go with three graphs:
 * Miss America winner's age over time
 * States with the most wins
 * States with the lowest population to winner ratios
