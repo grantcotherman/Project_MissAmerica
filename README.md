@@ -51,6 +51,13 @@ This output gave me a good idea for the data and how I could visualize it using 
 
 ## Visualization With Tableau
 
+For creating a Tableau dashboard, I decided to go with three graphs 
+* Miss America winner's age over time
+* States with the most wins
+* States with the lowest population to winner ratios
+
+![Screenshot_20230218_055424](https://user-images.githubusercontent.com/94634170/219902994-f5b31fba-8b60-424a-996d-26f881f93629.png)
+
 
 
 
