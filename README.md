@@ -56,7 +56,8 @@ For creating a Tableau dashboard, I decided to go with three graphs
 * States with the most wins
 * States with the lowest population to winner ratios
 
-![Screenshot_20230218_055424](https://user-images.githubusercontent.com/94634170/219902994-f5b31fba-8b60-424a-996d-26f881f93629.png)
+![Screenshot_20230218_063033](https://user-images.githubusercontent.com/94634170/219904074-79035533-d229-4b29-817d-b58246017bfb.png)
+
 
 
 
