@@ -15,7 +15,7 @@ This resulted in fairly clean output, as seen below:
 
 ![ScrapingOutput_MissAmerica](https://user-images.githubusercontent.com/94634170/219900957-4aaf7c85-2aa1-4269-9d1b-0f38e62b069f.png)
 
-However, there were a few things to correct. Namely, the mismatched list lengths, town names in the state list and missing values and /n in the age list. First off, I cleaned the /n from the age column, filled empty age strings and replaced the city names with the state, which was a problem when representatives from a single state won in succession, as shown below:
+However, there were a few things to correct. Namely, the mismatched list lengths, town names in the state list and missing values and /n in the age list. First off, I cleaned the /n from the age column, filled empty age strings and replaced the city names with the state, which was a problem when representatives from a single state won in succession, as shown below with New York:
 
 ![MultipleLines_OneState_Issue](https://user-images.githubusercontent.com/94634170/219901247-21c2d90f-d5f5-4348-ac26-eb1d80228dab.png)
 
