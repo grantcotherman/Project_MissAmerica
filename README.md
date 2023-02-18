@@ -23,7 +23,7 @@ The code used to fix the age and state columns is below:
 
 ![CleaningCode_Age State_MissAmerica](https://user-images.githubusercontent.com/94634170/219901250-4aa066a2-363f-4c8f-bd26-295a63a02f9e.png)
 
-Due to a scandal taking place in 1984 with the reiging Miss America, the runner up was awarded the title late in the year. To fix this, I had to add 1984 once more using its index in the list, which fixed the mismatched list lengths. See below: 
+Due to a scandal taking place in 1984 with the reiging Miss America, the runner up was awarded the title late in the year, so there were two winners in 1984. My scraping only pulled 1984 once, so I had to add 1984 once more using its index in the list, which fixed the mismatched list lengths. See below: 
 
 ![CleaningCode_Year_MissAmerica](https://user-images.githubusercontent.com/94634170/219901686-1e5b7a0a-9d18-4bc8-a31d-6e96f6caa408.png)
 
