@@ -27,7 +27,11 @@ Due to a scandal taking place in 1984 with the reiging Miss America, the runner 
 
 ![CleaningCode_Year_MissAmerica](https://user-images.githubusercontent.com/94634170/219901686-1e5b7a0a-9d18-4bc8-a31d-6e96f6caa408.png)
 
-Afterwards, I was ready to creat a dataframe using the cleaned lists and export to a csv:
+Now with each column clean, the output was as seen below:
+
+![CleaningOutput_MissAmerica](https://user-images.githubusercontent.com/94634170/219901956-42c7301b-047c-4600-bcd7-c12e1bd8406c.png)
+
+Afterwards, I was ready to create a dataframe using the cleaned lists and export to a csv:
 
 ![CreatingDF Exporting_MissAmerica](https://user-images.githubusercontent.com/94634170/219901759-5b651397-f5c6-495d-a438-7aa29116b292.png)
 
