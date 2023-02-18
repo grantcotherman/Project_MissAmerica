@@ -40,7 +40,7 @@ Afterwards, I was ready to create a dataframe using the cleaned lists and export
 
 ## Combining Tables Using SQL
 
-After importing the census csv file and the cleaned Miss America data in SQL Server Management Studio, I joined the file on the shared value (state) so that I could have the associated population for each state. The code for doing this and querying the data is seen below:
+After importing the census csv file and the cleaned Miss America data into SQL Server Management Studio, I joined the file on the shared value (state) so that I could have the associated population for each state. The code for doing this and querying the data is seen below:
 
 ![SQL_Code_Image](https://user-images.githubusercontent.com/94634170/219902667-7f781731-1d77-4f6e-9c1c-817a6c35fd53.png)
 
