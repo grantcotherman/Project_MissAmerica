@@ -6,6 +6,17 @@ The goal of this project was to brush up on skills learned in my MS.MIS program 
 
 ## Scraping With Python
 
+To start, I used python's pandas, lxml and requests modules to scrape and clean the data. To retrive the data, I wrote the following code:
+
+![ScrapingCode_MissAmerica](https://user-images.githubusercontent.com/94634170/219900938-375f6912-b27b-44d0-9cbc-b9a6df59024f.png)
+
+
+This Resulted in fairly clean output, as seen below:
+
+![ScrapingOutput_MissAmerica](https://user-images.githubusercontent.com/94634170/219900957-4aaf7c85-2aa1-4269-9d1b-0f38e62b069f.png)
+
+
+
 
 ## Combining Tables Using SQL
 
