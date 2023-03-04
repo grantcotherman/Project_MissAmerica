@@ -2,7 +2,9 @@
 
 ## Project Goal
 
-The goal of this project was to brush up on skills learned in my MS. MIS program while simultaneously displaying my home-state's (Oklahoma's) statistical dominance in the Miss America Pageants. I scraped historical Miss America data from wikipedia, took census data from census.gov to get state populations (2019), used SQL to combine the data, and finally used Tableau to visualize the results. 
+The goal of this project was to brush up on skills learned in my MS. MIS program while simultaneously displaying my home-state's (Oklahoma's) statistical dominance in the Miss America Pageants. I scraped historical Miss America data from wikipedia, took census data from census.gov to get state populations (2019), used SQL to combine the data, and finally used Tableau to visualize the results.
+
+Note: I have never watched a Miss America Pageant, but I thought this would be a fun project nonetheless. 
 
 
 
